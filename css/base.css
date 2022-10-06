@@ -1,0 +1,12 @@
+body{
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    /*设置最小宽度，小于这个宽度布局便不再缩小*/
+    min-width: 1226px;
+}
+
+/*中间容器的宽度都是固定的*/
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}

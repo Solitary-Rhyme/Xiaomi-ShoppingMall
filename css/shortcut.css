@@ -1,0 +1,45 @@
+.shortcut_wrapper{
+    height: 170px;
+    margin-top: 14px;
+}
+
+.shortcuts_arr{
+    width: 234px;
+    height: 170px;
+    font-size: 12px;
+    background-color: #5f5750;
+    float: left;
+}
+
+.shortcuts_arr li{
+    height: 58px;
+    /* line-height: 58px; */
+    width: 70px;
+    float: left;
+    border: red 1px solid;
+}
+
+.shortcuts_arr li a{
+    display: block;
+    color: #CFCCCA;
+}
+
+.shortcuts_arr li img{
+    height: 24px;
+    margin: 18px 23px 0 23px;
+}
+
+.shortcuts{
+    width: 316px;
+    height: 170px;
+    margin-left: 14px;
+    float: left;
+}
+
+.shortcuts img{
+    width: 100%;
+}
+
+.shortcuts:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
